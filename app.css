@@ -1,0 +1,55 @@
+h1 {
+    margin-bottom: 30px;
+}
+
+.timeSettings {
+    display: grid;
+    grid-template-columns: 50px 200px 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.dual-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+    margin: auto;
+    justify-items: center;   
+    align-items: center;
+    border: solid 3px #f5f5f5;
+    border-radius: 20px;
+}
+/* 
+@media (max-width: 1000px) {
+    .dual-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 500px;
+        margin: auto;
+        justify-items: center;   
+        align-items: center;
+        font-size: 1px;
+    }
+} */
+
+#break-label {
+    color: #64B5F6;
+}
+#session-label {
+    color: #64B5F6;
+}
+
+body {
+    margin-top: 100px;
+    color: #f5f5f5;
+    background-color: #191d32;
+}
+
+#time-left {
+    color: #ADD5F6;
+}
+
+button {
+    margin: 2px;
+}
